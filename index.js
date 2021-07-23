@@ -29,12 +29,14 @@ myFunction();
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
 function summation(num) {
-  let counter = 0;
-  for(let i = 0; i < num; i++){
-    counter = counter + num; 
-  }
-  return counter;
-  }
+  // let counter = 0;
+  // for(let i = 0; i < num; i++){
+  //   counter += num[i]; 
+  // }
+  // return counter;
+  // }
+  // num.reduce((total, num) => total + num, 0);
+};
  
   console.log('task 2', summation(4));
 
@@ -98,8 +100,9 @@ const zooAnimals = [
   Remember the reduce method takes two arguments: a callback (which itself takes two args - the accumulator and the item), and an initial value for the count.
   */
 
-  function USApop(/*Your Code Here*/){
-    /*Your Code Here*/
+  function USApop(array){
+    const animalTotal = array.reduce((total, array) => total + array.population, 0);
+    return animalTotal;
   }
   
   console.log('topic 2, request 4', USApop);
