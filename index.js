@@ -17,7 +17,8 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-//here we go!
+//The reason nestedFunction can access the internal varuiable it was defined inside myFunction. A closure occurs when a function is enclosed
+//within another function. The nested function can reach out and pull from its surrounding scope, the same way a function can pull from its global scope. 
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
@@ -27,8 +28,9 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
+function summation(9) {
+  //use reduce
+  
 
   }
  
