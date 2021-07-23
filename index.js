@@ -29,13 +29,11 @@ myFunction();
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
 function summation(num) {
-  // let counter = 0;
-  // for(let i = 0; i < num; i++){
-  //   counter += num[i]; 
-  // }
-  // return counter;
-  // }
-  // num.reduce((total, num) => total + num, 0);
+let sumNums = 0;
+  for (let i = 0; i < num; i++){
+    sumNums += i + 1;
+    }
+    return sumNums;
 };
  
   console.log('task 2', summation(4));
